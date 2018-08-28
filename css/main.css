@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgreen;
+    color: darkgray;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+a {
+    position: relative;
+    cursor: pointer;
+}
+a:active {
+    top: 1px;
+}
+a, a:hover, a:visited, a:active, a:focus {
+    outline: none;
+    text-decoration: none;
+}
+header{
+    text-align: center;
+}
+header h1 {
+    padding: 70px ;
+}
+main .container{
+    border: 10px double;
+    padding: 40px 0;
+}
+.wrapper {
+    text-align: center;
+}
+.wrapper h2 {
+    padding-bottom: 20px;
+}
+.projects_list {
+    list-style-position: inside;
+    text-align: center;
+    font-size: 24px;
+    padding: 50px 0 30px 0;
+}
+.projects_list li:hover {
+    text-decoration: underline;
+}
+.projects_list a:hover {
+    color: #fff;
+}
+.projects_list a:visited {
+    color: darkblue;
+}
+.projects_list a:link {
+     color: darkgray;
+ }
+
